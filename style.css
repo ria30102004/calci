@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #233b57;
+    width: 500px;
+    height: 585px;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(5,1fr);
+    
+    align-items: start;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 5px;
+    column-gap: 6px;
+    
+}
+.r1{
+    
+   
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.b1{
+    font-size: larger;
+    padding: 30px 76px;
+    margin: 14px 0px;
+    border-radius: 42px;
+    
+    background-color: #192941;
+    color: white;
+}
+.r2{
+    
+   
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+.r3{
+    
+   
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.r4{
+    
+   
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.r5{
+    
+   
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.r6{
+    
+   
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.r7{
+    
+   
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.b2{
+    padding: 30px 33px;
+    margin: 11px 0px;
+    border-radius: 20px;
+    font-size: larger;
+    color: white;
+    background-color: #233b57;
+}
+.plus{
+    
+   
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;}
+    .pl{
+        margin: 13px 11px;
+    padding: 99px 30px;
+    border-radius: 40px;
+    font-size: larger;
+    color: white;
+    background-color: #ffa56d;
+    }
+    .equal{
+    
+   
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: -3;
+        grid-column-end: -1;}
+        .eq{
+            margin: 16px 8px;
+    padding: 30px 83px;
+    border-radius: 40px;
+    font-size: larger;
+    color: white;
+    background-color: #f74090;
+        }
+        #screen{
+            padding: 20px 64px;
+    margin: 0px 0px;
+    font-size: 30px;
+    color: black;
+        }
+        .b9{
+            background-color: #ffa56d;
+            color: white;
+            padding: 30px 33px;
+    margin: 11px 0px;
+    border-radius: 20px;
+    font-size: larger;
+        }

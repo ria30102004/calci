@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="utils.css">
+        <script>
+           let display='';
+        </script>
+        </head>
+        <body>
+            <center>
+            <h1 class="head">Welcome to my CALCULATOR!!!</h1>
+            <div class="input">
+                <form><input type="text" id="screen" name="display" value=""></div>
+                    
+
+            <div class="container">
+                <div class="r1">
+                    <input type="button" value="(" class="b1 button" onclick="display.value +='(' ">
+                </div>
+                
+                <div class="r2">
+                    <input type="button" value=")" class="b1 button" onclick="display.value +=')' ">
+                </div>
+                <div class="r3">
+                    <input type="button" value="7" class="b2 button" onclick="display.value +='7' ">
+                </div>
+                <div class="r4">
+                    <input type="button" value="8" class="b2 button" onclick="display.value +='8' ">
+                </div>
+                <div class="r5">
+                    <input type="button" value="9" class="b2 button" onclick="display.value +='9' ">
+                </div>
+                <div class="r6">
+                    <input type="button" value="-" class="b9 button" onclick="display.value +='-' ">
+                </div>
+                <div class="r7">
+                    <input type="button" value="/" class="b9 button" onclick="display.value +='/' ">
+                </div>
+                <div class="r3">
+                    <input type="button" value="4" class="b2 button" onclick="display.value +='4' ">
+                </div>
+                <div class="r4">
+                    <input type="button" value="5" class="b2 button" onclick="display.value +='5' ">
+                </div>
+                <div class="r5">
+                    <input type="button" value="6" class="b2 button" onclick="display.value +='6' ">
+                </div>
+                <div class="plus">
+                    <input type="button" value="+" class="pl button" onclick="display.value +='+' ">
+                </div>
+                <div class="r7">
+                    <input type="button" value="*" class="b9 button" onclick="display.value +='*' ">
+                </div>
+                <div class="r3">
+                    <input type="button" value="1" class="b2 button" onclick="display.value +='1' ">
+                </div>
+                <div class="r4">
+                    <input type="button" value="2" class="b2 button" onclick="display.value +='2' ">
+                </div>
+                <div class="r5">
+                    <input type="button" value="3" class="b2 button" onclick="display.value +='3' ">
+                </div>
+                <div class="r7">
+                    <input type="button" value="%" class="b9 button" onclick="display.value +='%'">
+                </div>
+                <div class="r3">
+                    <input type="button" value="0" class="b2 button" onclick="display.value +='0' ">
+                </div>
+                <div class="r4">
+                    <input type="button" value="." class="b2 button" onclick="display.value +='.' ">
+                </div>
+                <div class="r5">
+                    <input type="button" value="C" class="b2 button"onclick="display.value ='' ">
+                </div>
+                <div class="equal">
+                    <input type="button" value="="class="eq button"onclick="display.value =eval(display.value) ">
+                </div>
+            </form>
+                
+            </div>
+            </center>
+        </body>
+        </html>
